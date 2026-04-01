@@ -10,7 +10,7 @@ const Hero = () => {
             New: AI-Powered Tools Available
           </div>
           <h1 className="text-5xl md:text-7xl font-extrabold text-gray-900 leading-tight">
-            Supercharge Your <span className="text-violet-600">Digital</span> Workflow
+            Supercharge Your Digital Workflow
           </h1>
           <p className="text-xl text-gray-600 leading-relaxed max-w-lg">
             Access premium AI tools, design assets, templates, and productivity software—all in one place. Start creating faster today.
@@ -28,9 +28,9 @@ const Hero = () => {
 
         <div className="relative">
           <div className="absolute inset-x-0 bottom-0 top-0 bg-violet-600/5 rounded-[40px] rotate-3 -z-10 translate-x-4 translate-y-4"></div>
-          <img 
-            src="/assets/banner.png" 
-            alt="Digital Workflow AI" 
+          <img
+            src="/assets/banner.png"
+            alt="Digital Workflow AI"
             className="w-full h-auto rounded-[32px] shadow-2xl border-white border-2 hover:scale-[1.02] transition-transform duration-500"
           />
         </div>
