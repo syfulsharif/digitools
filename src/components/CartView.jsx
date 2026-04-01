@@ -29,7 +29,7 @@ const CartView = ({ cart, removeFromCart, proceedToCheckout }) => {
         ))}
       </div>
 
-      <div className="bg-white p-8 rounded-[32px] border border-gray-100 shadow-xl shadow-gray-200/50 space-y-6">
+      <div className="bg-white p-8 rounded-4xl border border-gray-100 shadow-xl shadow-gray-200/50 space-y-6">
         <div className="flex justify-between items-center px-4">
           <span className="text-xl font-bold text-gray-500">Total:</span>
           <span className="text-4xl font-extrabold text-gray-900">${totalPrice}</span>
