@@ -2,8 +2,8 @@ import { CheckCircle2 } from 'lucide-react'
 
 const Pricing = () => {
   const plans = [
-    { name: 'Starter', price: '0', description: 'Perfect for exploring our platform and features.', features: ['3 basic tools', 'Community support', 'Basic assets'], button: 'Start For Free', popular: false },
-    { name: 'Pro', price: '29', description: 'Best for professionals and growing creators.', features: ['Unlimited tools', 'Priority support', 'Premium assets', 'AI features'], button: 'Get Started Pro', popular: true },
+    { name: 'Starter', price: '0', description: 'Perfect for exploring our platform and features.', features: ['3 basic tools', 'Community support', 'Basic assets'], button: 'Get Started Free', popular: false },
+    { name: 'Pro', price: '29', description: 'Best for professionals and growing creators.', features: ['Unlimited tools', 'Priority support', 'Premium assets', 'AI features'], button: 'Start Pro Trial', popular: true },
     { name: 'Enterprise', price: '99', description: 'Custom solutions for teams and large projects.', features: ['Dedicated support', 'Custom templates', 'Team license', 'API access'], button: 'Contact Sales', popular: false },
   ]
 
@@ -12,7 +12,7 @@ const Pricing = () => {
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight">
-            Simple, Transparent <span className="text-violet-600">Pricing</span>
+            Simple, Transparent Pricing
           </h2>
           <p className="text-lg text-gray-500 max-w-2xl mx-auto px-4">
             Choose the plan that's right for your business. No hidden fees or long-term contracts.
@@ -59,7 +59,7 @@ const Pricing = () => {
               <button className={`w-full py-4 rounded-2xl font-bold text-lg transition-all duration-300 shadow-lg ${
                 plan.popular 
                   ? 'bg-white text-violet-600 hover:bg-amber-400 hover:text-gray-900 shadow-violet-800' 
-                  : 'bg-gray-900 text-white hover:bg-violet-600 shadow-gray-200'
+                  : 'bg-violet-600 text-white hover:bg-white hover:text-violet-600 shadow-gray-200'
               }`}>
                 {plan.button}
               </button>

@@ -11,7 +11,7 @@ const Steps = () => {
     <section className="py-24 bg-white">
       <div className="container mx-auto px-4 text-center max-w-6xl">
         <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-16 px-4">
-          Get Started In <span className="text-violet-600">3 Steps</span>
+          Get Started In 3 Steps
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 relative">
