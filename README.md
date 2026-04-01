@@ -1,16 +1,27 @@
-# React + Vite
+# DigiTools – Premium Digital Tools Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Name
+**DigiTools – Premium Digital Tools Marketplace**
 
-Currently, two official plugins are available:
+## 📖 Description
+DigiTools is a modern digital marketplace website where users can explore and purchase premium digital tools such as AI writing software, design templates, automation toolkits, and stock assets. The platform provides a clean UI, product listings, pricing plans, and a smooth user experience for browsing and managing digital products.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The website focuses on productivity and creativity by offering curated digital resources in one place.
 
-## React Compiler
+## 🛠️ Technologies Used
+- React.js
+- Tailwind CSS
+- DaisyUI
+- JavaScript (ES6+)
+- React-Toastify (NPM Package)
+- JSON (for product data)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
+1. **Dynamic Product Listing**
+   - Products are loaded from JSON data and displayed dynamically using React components.
 
-## Expanding the ESLint configuration
+2. **Responsive Modern UI**
+   - Built with Tailwind CSS and DaisyUI for fully responsive and clean design across all devices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. **Interactive Notifications**
+   - React-Toastify is used to show user-friendly toast notifications for actions like adding items to cart.
