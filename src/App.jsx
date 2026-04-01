@@ -8,6 +8,7 @@ import Pricing from './components/Pricing'
 import Footer from './components/Footer'
 import productsData from './data/products.json'
 import { toast } from 'react-toastify'
+import Transform from './components/Transform'
 
 function App() {
   const [cart, setCart] = useState([])
@@ -57,6 +58,7 @@ function App() {
 
       <Steps />
       <Pricing />
+      <Transform />
       <Footer />
     </div>
   )

@@ -2,26 +2,12 @@ import { Github, Twitter, Linkedin, Instagram } from 'lucide-react'
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 pt-24 pb-12 text-gray-300">
+    <footer className="bg-gray-900 py-24 text-gray-300">
       <div className="container mx-auto px-4 max-w-6xl">
-        {/* CTA Block */}
-        <div className="bg-violet-600 rounded-[48px] p-12 md:p-16 mb-24 text-center space-y-8 relative overflow-hidden shadow-2xl shadow-violet-500/20 translate-y-[-50%] mb-[-120px] mx-4 md:mx-0">
-          <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl"></div>
-          <div className="absolute bottom-0 left-0 w-64 h-64 bg-black/10 rounded-full translate-y-1/2 -translate-x-1/2 blur-3xl"></div>
-          
-          <h2 className="text-4xl md:text-5xl font-black text-white tracking-tight leading-tight max-w-2xl mx-auto">
-            Ready To Transform Your <span className="text-white/80">Workflow?</span>
-          </h2>
-          <p className="text-lg text-violet-100 max-w-xl mx-auto font-medium">
-            Join 50,000+ creators who are already supercharging their digital projects with our premium tools.
-          </p>
-          <button className="bg-white text-violet-600 hover:bg-gray-100 px-10 py-5 rounded-3xl font-black text-xl transition-all duration-300 shadow-xl shadow-black/10 active:scale-95">
-            Get Started Now
-          </button>
-        </div>
+
 
         {/* Footer Links */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-16 md:gap-8 mb-16 pt-32">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-16 md:gap-8 mb-16">
           <div className="space-y-6">
             <h3 className="text-3xl font-black text-white">DigiTools</h3>
             <p className="text-gray-400 leading-relaxed text-sm">
